@@ -135,6 +135,7 @@ func main() {
 		DisableXAttrs: true,
 		MaxBackground: 1024,
 		Debug:         *debugOn,
+		AllowOther:    true,
 	})
 	if err != nil {
 		log.Fatal().Err(err).Msgf("Mount failed. Is the mountpoint already in use? "+
