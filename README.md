@@ -4,6 +4,8 @@
 
 # onedriver
 
+The only change this has, is allowing other users like root to write into the fuse mounted onedriver
+
 **onedriver is a native Linux filesystem for Microsoft OneDrive.**
 
 onedriver is a network filesystem that gives your computer direct access to your
